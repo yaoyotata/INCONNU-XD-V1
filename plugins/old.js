@@ -68,150 +68,132 @@ const menu = async (m, Matrix) => {
 
   if (validCommands.includes(cmd)) {
     const str = `
-╭━━〔 *${config.BOT_NAME}* 〕━━┈⊷
-┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ User : *${m.pushName}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Mode : *${mode}*
-┃★│ Platform : *${os.platform()}*
-┃★│ Prefix : [${prefix}]
-┃★│ Version : *1.0.0*
-┃★╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
-
+╭── *☉ INCONNU XD V1* ──☉
+│▫️╭─────────────☉
+│▫️│ User : *${m.pushName}*
+│▫️│ Mode : *${mode}*
+│▫️│ Prefix : [${prefix}]
+│▫️│ Dev : *INCONNU BOY*
+│▫️│ Version : *1.0.0*
+│▫️╰──────────────☉
+╰──────────────────☉
 > ${pushwish} *${m.pushName}*!
 
-╭━━〔 *Download Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• apk
-┃◈┃• facebook
-┃◈┃• mediafire
-┃◈┃• pinterestdl
-┃◈┃• gitclone
-┃◈┃• gdrive
-┃◈┃• insta
-┃◈┃• ytmp3
-┃◈┃• ytmp4
-┃◈┃• play
-┃◈┃• song
-┃◈┃• video
-┃◈┃• ytmp3doc
-┃◈┃• ytmp4doc
-┃◈┃• tiktok
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Converter Menu* 〕━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• attp
-┃◈┃• attp2
-┃◈┃• attp3
-┃◈┃• ebinary
-┃◈┃• dbinary
-┃◈┃• emojimix
-┃◈┃• mp3
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *AI Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• ai
-┃◈┃• bug
-┃◈┃• report
-┃◈┃• gpt
-┃◈┃• dalle
-┃◈┃• remini
-┃◈┃• gemini
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Tools Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• calculator
-┃◈┃• tempmail
-┃◈┃• checkmail
-┃◈┃• trt
-┃◈┃• tts
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Group Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• linkgc
-┃◈┃• setppgc
-┃◈┃• setname
-┃◈┃• setdesc
-┃◈┃• group
-┃◈┃• gcsetting
-┃◈┃• welcome
-┃◈┃• add
-┃◈┃• kick
-┃◈┃• kickall
-┃◈┃• promote
-┃◈┃• promoteall
-┃◈┃• demote
-┃◈┃• demoteall
-┃◈┃• hidetag
-┃◈┃• tagall
-┃◈┃• antilink
-┃◈┃• antitoxic
-┃◈┃• getbio
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Search Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• play
-┃◈┃• yts
-┃◈┃• imdb
-┃◈┃• google
-┃◈┃• gimage
-┃◈┃• pinterest
-┃◈┃• wallpaper
-┃◈┃• wikimedia
-┃◈┃• ytsearch
-┃◈┃• ringtone
-┃◈┃• lyrics
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Main Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• ping
-┃◈┃• alive
-┃◈┃• owner
-┃◈┃• menu
-┃◈┃• infobot
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Owner Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• join
-┃◈┃• leave
-┃◈┃• block
-┃◈┃• unblock
-┃◈┃• setppbot
-┃◈┃• anticall
-┃◈┃• setstatus
-┃◈┃• setnamebot
-┃◈┃• autotyping
-┃◈┃• alwaysonline
-┃◈┃• autoread
-┃◈┃• autosview
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-
-╭━━〔 *Stalk Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• truecaller
-┃◈┃• instastalk
-┃◈┃• githubstalk
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-> *${config.DESCRIPTION}*`;
+╭─〔 ☉ Download Menu ☉ 〕─☉
+│▫️ facebook
+│▫️ pinterestdl
+│▫️ insta
+│▫️ play
+│▫️ song
+│▫️ tiktok
+╰──────────────────☉
+╭─〔 ☉ Converter Menu ☉ 〕─☉
+│▫️ ebinary
+│▫️ dbinary
+│▫️ emojimix
+│▫️ mp3
+╰──────────────────☉
+╭─〔 ☉ AI Menu ☉ 〕────☉
+│▫️ ai
+│▫️ bug
+│▫️ report
+│▫️ gpt
+│▫️ dalle
+│▫️ remini
+│▫️ gemini
+╰──────────────────☉
+╭─〔 ☉ Tools Menu ☉ 〕──☉
+│▫️ calculator
+│▫️ removebg
+│▫️ tempmail
+│▫️ checkmail
+│▫️ trt
+│▫️ tts
+│▫️ calculater 
+╰──────────────────☉
+╭─〔 ☉ Group Menu ☉ 〕──☉
+│▫️ linkgc
+│▫️ setname
+│▫️ setdesc
+│▫️ group
+│▫️ groupinfo
+│▫️ gcsetting
+│▫️ welcome
+│▫️ kick
+│▫️ kickall 
+│▫️ demote 
+│▫️ add
+│▫️ promote 
+│▫️ promoteall 
+│▫️ demoteall
+│▫️ gcpp
+│▫️ hidetag 
+│▫️ tagall
+│▫️ antilink
+╰──────────────────☉
+╭─〔 ☉ Search Menu ☉ 〕─☉
+│▫️ play
+│▫️ yts
+│▫️ shazam
+│▫️ score
+│▫️ imdb
+│▫️ google / gimage
+│▫️ pinterest
+│▫️ ytsearch
+│▫️ ringtone
+│▫️ lyrics
+╰──────────────────☉
+╭─〔 ☉ Audio Menu ☉ 〕──☉
+│▫️ reverse 
+│▫️ smooth
+│▫️ robot
+│▫️ slow 
+│▫️ deep
+│▫️ fast
+│▫️ fat
+│▫️ nightcore
+│▫️ blown
+│▫️ tupai 
+│▫️ earrape 
+│▫️ bass
+╰───────────────────☉
+╭─〔 ☉ Fun Menu ☉ 〕───☉
+│▫️ couple
+│▫️ flirt
+│▫️ givetext
+│▫️ emojimix
+│▫️ dbinary
+╰──────────────────☉
+╭─〔 ☉ Main Menu ☉ 〕──☉
+│▫️ ping
+│▫️ alive
+│▫️ owner
+│▫️ menu
+│▫️ flirt
+╰──────────────────☉
+╭─〔 ☉ Owner Menu ☉ 〕─☉
+│▫️ join
+│▫️ delete 
+│▫️ unblock 
+│▫️ setstatus 
+│▫️ alwaysonline 
+│▫️ autosview
+│▫️ autostatusreply
+│▫️ setstatusmsg
+│▫️ repo
+│▫️ mode  
+│▫️ leave
+│▫️ block
+│▫️ autoread
+│▫️ autotyping
+│▫️ anticall 
+│▫️ leave
+│▫️ setprefix
+╰─────────────────☉
+╭─〔 ☉ Stalk Menu ☉ 〕──☉
+│▫️ githubstalk
+╰─────────────────☉
+> CREATED BY INCONNU BOY`;
 
     // Check if MENU_IMAGE exists in config and is not empty
     let menuImage;
@@ -238,7 +220,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363397722863547@newsletter',
-          newsletterName: "INCONNU-BOY",
+          newsletterName: "INCONNU XD V1",
           serverMessageId: 143
         }
       }
@@ -248,7 +230,7 @@ const menu = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://files.catbox.moe/rvfjap.mp3' },
+      audio: { url: '' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
@@ -256,3 +238,4 @@ const menu = async (m, Matrix) => {
 };
 
 export default menu;
+
