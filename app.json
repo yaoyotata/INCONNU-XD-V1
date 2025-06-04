@@ -70,7 +70,7 @@
     "STATUS_READ_MSG": {
       "description": "Set the message bot sends after viewing a status",
       "required": false,
-      "value": "*Status Seen*"
+      "value": "*Status Seen ⌛*"
     },
     "AUTO_BLOCK": {
       "description": "Enable bot to auto-block specific numbers (true/false)",

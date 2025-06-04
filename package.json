@@ -5,15 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name  INCONNU-XD",
-    "stop": "pm2 stop  INCONNU-XD",
-    "restart": "pm2 restart  INCONNU-XD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name INCONNU-XD",
+    "stop": "pm2 stop INCONNU-XD",
+    "restart": "pm2 restart INCONNU-XD"
   },
   "keywords": ["INCONNU-BOY", "whatsapp-bot", "whatsapp md bot"],
-  "author": " INCONNU BOY",
+  "author": "INCONNU BOY",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "@whiskeysockets/baileys": "^6.6.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
     "@hapi/boom": "^10.0.1",
